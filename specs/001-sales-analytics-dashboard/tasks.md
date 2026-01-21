@@ -25,10 +25,10 @@
 **Purpose**: Project initialization and basic structure
 
 - [x] T001 Create project directory structure with `src/` folder and `src/__init__.py`
-- [ ] T002 Create `pyproject.toml` with dependencies (streamlit, pandas, plotly)
-- [ ] T003 [P] Create `.gitignore` with Python and virtual environment exclusions
-- [ ] T004 [P] Create `README.md` with project overview and setup instructions
-- [ ] T005 Initialize virtual environment using `uv venv` and install dependencies
+- [x] T002 Create `pyproject.toml` with dependencies (streamlit, pandas, plotly)
+- [x] T003 [P] Create `.gitignore` with Python and virtual environment exclusions
+- [x] T004 [P] Create `README.md` with project overview and setup instructions
+- [x] T005 Initialize virtual environment using `uv venv` and install dependencies
 
 **Checkpoint**: Project structure ready, dependencies installed
 
@@ -40,11 +40,11 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T006 Implement `load_sales_data()` function in `src/data_loader.py` with CSV loading, date parsing, and type validation
-- [ ] T007 Add error handling in `src/data_loader.py` for missing file and empty data scenarios (FR-011)
-- [ ] T008 Create basic `app.py` Streamlit skeleton with page configuration and title
-- [ ] T009 Add data loading call in `app.py` with `@st.cache_data` decorator for performance
-- [ ] T010 Implement error display in `app.py` showing user-friendly messages when data loading fails
+- [x] T006 Implement `load_sales_data()` function in `src/data_loader.py` with CSV loading, date parsing, and type validation
+- [x] T007 Add error handling in `src/data_loader.py` for missing file and empty data scenarios (FR-011)
+- [x] T008 Create basic `app.py` Streamlit skeleton with page configuration and title
+- [x] T009 Add data loading call in `app.py` with `@st.cache_data` decorator for performance
+- [x] T010 Implement error display in `app.py` showing user-friendly messages when data loading fails
 
 **Checkpoint**: Foundation ready - data loads successfully, errors handled gracefully
 
