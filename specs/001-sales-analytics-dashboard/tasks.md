@@ -58,13 +58,13 @@
 
 ### Implementation for User Story 1
 
-- [ ] T011 [US1] Add `calculate_total_sales()` function in `src/data_loader.py` returning sum of total_amount column
-- [ ] T012 [US1] Add `calculate_total_orders()` function in `src/data_loader.py` returning count of rows
-- [ ] T013 [US1] Add `format_currency()` helper function in `src/data_loader.py` for US dollar formatting
-- [ ] T014 [US1] Add `format_number()` helper function in `src/data_loader.py` for thousands separators
-- [ ] T015 [US1] Implement KPI display section in `app.py` using `st.metric()` for Total Sales
-- [ ] T016 [US1] Implement KPI display section in `app.py` using `st.metric()` for Total Orders
-- [ ] T017 [US1] Add loading state handling in `app.py` using `st.spinner()` during data processing
+- [x] T011 [US1] Add `calculate_total_sales()` function in `src/data_loader.py` returning sum of total_amount column
+- [x] T012 [US1] Add `calculate_total_orders()` function in `src/data_loader.py` returning count of rows
+- [x] T013 [US1] Add `format_currency()` helper function in `src/data_loader.py` for US dollar formatting
+- [x] T014 [US1] Add `format_number()` helper function in `src/data_loader.py` for thousands separators
+- [x] T015 [US1] Implement KPI display section in `app.py` using `st.metric()` for Total Sales
+- [x] T016 [US1] Implement KPI display section in `app.py` using `st.metric()` for Total Orders
+- [x] T017 [US1] Add loading state handling in `app.py` using `st.spinner()` during data processing
 
 **Checkpoint**: User Story 1 complete - KPIs display correctly with proper formatting
 
@@ -78,11 +78,11 @@
 
 ### Implementation for User Story 2
 
-- [ ] T018 [US2] Add `aggregate_monthly_sales()` function in `src/data_loader.py` grouping by month and summing total_amount
-- [ ] T019 [US2] Create `src/charts.py` with `create_trend_chart()` function using Plotly Express line chart
-- [ ] T020 [US2] Configure trend chart with proper title "Sales Trend Over Time" and axis labels in `src/charts.py`
-- [ ] T021 [US2] Add hover template to trend chart showing formatted date and currency value in `src/charts.py`
-- [ ] T022 [US2] Integrate trend chart in `app.py` below KPIs using `st.plotly_chart()`
+- [x] T018 [US2] Add `aggregate_monthly_sales()` function in `src/data_loader.py` grouping by month and summing total_amount
+- [x] T019 [US2] Create `src/charts.py` with `create_trend_chart()` function using Plotly Express line chart
+- [x] T020 [US2] Configure trend chart with proper title "Sales Trend Over Time" and axis labels in `src/charts.py`
+- [x] T021 [US2] Add hover template to trend chart showing formatted date and currency value in `src/charts.py`
+- [x] T022 [US2] Integrate trend chart in `app.py` below KPIs using `st.plotly_chart()`
 
 **Checkpoint**: User Story 2 complete - trend chart displays monthly sales with tooltips
 
@@ -96,11 +96,11 @@
 
 ### Implementation for User Story 3
 
-- [ ] T023 [US3] Add `aggregate_category_sales()` function in `src/data_loader.py` grouping by category and sorting descending
-- [ ] T024 [US3] Add `create_category_chart()` function in `src/charts.py` using Plotly Express bar chart
-- [ ] T025 [US3] Configure category chart with title "Sales by Category" and axis labels in `src/charts.py`
-- [ ] T026 [US3] Add hover template to category chart showing category name and formatted currency in `src/charts.py`
-- [ ] T027 [US3] Integrate category chart in `app.py` using `st.plotly_chart()` with `st.columns()` layout
+- [x] T023 [US3] Add `aggregate_category_sales()` function in `src/data_loader.py` grouping by category and sorting descending
+- [x] T024 [US3] Add `create_category_chart()` function in `src/charts.py` using Plotly Express bar chart
+- [x] T025 [US3] Configure category chart with title "Sales by Category" and axis labels in `src/charts.py`
+- [x] T026 [US3] Add hover template to category chart showing category name and formatted currency in `src/charts.py`
+- [x] T027 [US3] Integrate category chart in `app.py` using `st.plotly_chart()` with `st.columns()` layout
 
 **Checkpoint**: User Story 3 complete - category breakdown displays all 5 categories sorted
 
@@ -114,11 +114,11 @@
 
 ### Implementation for User Story 4
 
-- [ ] T028 [US4] Add `aggregate_region_sales()` function in `src/data_loader.py` grouping by region and sorting descending
-- [ ] T029 [US4] Add `create_region_chart()` function in `src/charts.py` using Plotly Express bar chart
-- [ ] T030 [US4] Configure region chart with title "Sales by Region" and axis labels in `src/charts.py`
-- [ ] T031 [US4] Add hover template to region chart showing region name and formatted currency in `src/charts.py`
-- [ ] T032 [US4] Integrate region chart in `app.py` alongside category chart using `st.columns()` layout
+- [x] T028 [US4] Add `aggregate_region_sales()` function in `src/data_loader.py` grouping by region and sorting descending
+- [x] T029 [US4] Add `create_region_chart()` function in `src/charts.py` using Plotly Express bar chart
+- [x] T030 [US4] Configure region chart with title "Sales by Region" and axis labels in `src/charts.py`
+- [x] T031 [US4] Add hover template to region chart showing region name and formatted currency in `src/charts.py`
+- [x] T032 [US4] Integrate region chart in `app.py` alongside category chart using `st.columns()` layout
 
 **Checkpoint**: User Story 4 complete - regional breakdown displays all 4 regions sorted
 
@@ -128,12 +128,12 @@
 
 **Purpose**: Final improvements and deployment preparation
 
-- [ ] T033 [P] Add consistent color scheme across all charts in `src/charts.py`
-- [ ] T034 [P] Add type hints to all functions in `src/data_loader.py` and `src/charts.py`
-- [ ] T035 Verify dashboard layout follows spec: KPIs → Trend → Category/Region side-by-side in `app.py`
-- [ ] T036 [P] Create `requirements.txt` for Streamlit Community Cloud deployment
-- [ ] T037 Run manual validation against quickstart.md checklist
-- [ ] T038 Test dashboard in multiple browsers (Chrome, Firefox, Safari, Edge)
+- [x] T033 [P] Add consistent color scheme across all charts in `src/charts.py`
+- [x] T034 [P] Add type hints to all functions in `src/data_loader.py` and `src/charts.py`
+- [x] T035 Verify dashboard layout follows spec: KPIs → Trend → Category/Region side-by-side in `app.py`
+- [x] T036 [P] Create `requirements.txt` for Streamlit Community Cloud deployment
+- [x] T037 Run manual validation against quickstart.md checklist
+- [x] T038 Test dashboard in multiple browsers (Chrome, Firefox, Safari, Edge)
 
 **Checkpoint**: Dashboard ready for deployment
 
